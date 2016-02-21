@@ -9,7 +9,7 @@ those responses.
 
 In this example, the individual responses are from unique participants in a
 single study, each providing a response for each of thirteen items in a survey
-(gray diamonds). The summary is the mean and standard deviation of these
+(gray diamonds). The summary is the mean and 95% confidence interval for these
 responses for each item (blue dots and error bars). However, the thirteen items
 could just as easily be dependent variables from thirteen different studies in a
 meta-analysis (with each participant's response + a summary for each study) or
