@@ -11,7 +11,7 @@ library(Hmisc)
 ######################### BUILD DATA ###########################################
 ################################################################################
 
-# We will pull in 2 data sets: one containing raw data with each participants'
+# We will pull in 2 data sets: one containing raw data with each participant's
 # responses, and a second containing summarized data by demographic variables.
 # In the raw data, each participant rated their association strength for 13
 # different concept pairs from the social psych priming literature.
@@ -117,13 +117,14 @@ multiPanel <- ggplot(data = summarizedData,
         axis.title.y = element_text(face="bold", size=12), 
         axis.text.x  = element_text(colour="#000000", size=10), 
         axis.text.y  = element_text(colour="#000000", size=10),
-        legend.justification=c(1,0), 
-        legend.position=c(1,0),
+        legend.justification = c(1,0), 
+        legend.position = c(1,0),
         legend.key = element_blank(), 
         legend.background = element_rect(fill = "#EEEEEE"),
-        legend.text = element_text(size=9)
-  ) + 
-  scale_colour_discrete(labels=c("All", "Men", "Women", "Religious", "Non-Religious")) + 
+        legend.text = element_text(size=9)) + 
+  scale_colour_discrete(labels = c("All",
+                                   "Men", "Women",
+                                   "Religious", "Non-Religious")) + 
   ylab("Median Association Score")
 
 ggsave("multiPanel.png", multiPanel, width = 9)
