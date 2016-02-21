@@ -125,6 +125,6 @@ multiPanel <- ggplot(data = summarizedData,
   scale_colour_discrete(labels = c("All",
                                    "Men", "Women",
                                    "Religious", "Non-Religious")) + 
-  ylab("Median Association Score")
+  ylab("Median Association Rating")
 
 ggsave("multiPanel.png", multiPanel, width = 9)
