@@ -95,7 +95,7 @@ singlePanel <- ggplot(data = rawDataLong,
 ggsave("singlePanel.png", singlePanel)
 
 
-# this second plot just plots the medians and 95% eqivalent bca CIs in three
+# this second plot just plots the medians and 95% equivalent bca CIs in three
 # panels for (a) all participants, (b) broken down by gender, (c) broken down by
 # religion
 
