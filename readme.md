@@ -17,8 +17,9 @@ from thirteen different effects in a Many Labs-style replication effort (with
 gray diamonds representing each lab's effect size contribution for each effect,
 and the blue summaries representing meta-analytic estimates for each effect).
 
-The second plot presents only summary information for the same items but breaks
-it down by two different moderators (in this example gender and religion).
+The second plot presents only summary information (medians and 95% confidence
+intervals) for the same items but breaks them down by two different moderators
+(in this example, gender and religion).
 
 ![plot2](multiPanel.png)
 
